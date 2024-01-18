@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import AnimatedText from "@/components/AnimatedText";
 import { HireMe } from "@/components/HireMe";
 import { LinkArrow } from "@/components/Icons";
@@ -19,7 +20,7 @@ export default function Home() {
         <meta
           name="description"
           content="Welcome to the heart of Chidera Ozigbo data engineering Portfolio! Explore a world where raw data transforms into valuable insights. Witness the power of ETL processes, ML pipelines, and cutting-edge data modeling. 
-          Join me on a journey to shape the future of structured and meaningful data solutions.."
+          Join me on a journey to shape the future of structured and meaningful data solutions."
         />
       </Head>
 
