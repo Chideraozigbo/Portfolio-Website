@@ -5,7 +5,7 @@ import Image from "next/image";
 import blog1 from "../../public/images/articles/blog1.png";
 import blog2 from "../../public/images/articles/blog2.jpg";
 import blog3 from "../../public/images/projects/database.jpg";
-import blog4 from "../../public/images/articles/smooth scrolling in reactjs.png";
+import blog4 from "../../public/images/articles/architecture.png";
 import blog5 from "../../public/images/articles/create modal component in react using react portals.png";
 import blog6 from "../../public/images/articles/todo list app built using react redux and framer motion.png";
 import blog7 from "../../public/images/articles/What is Redux with easy explanation.png";
@@ -172,13 +172,14 @@ export default function Articles() {
               date="December 25, 2023"
               link="https://medium.com/@chideraozigbo/database-design-i-employee-attrition-management-system-25d89503c08b"
             />
-            {/*
+            
             <Article
-              title="silky smooth scrolling in reactjs: a step-by-step guide for react developers"
+              title="LinkedIn Jobs Data ETL Pipeline"
               img={blog4}
-              date="January 30, 2023"
-              link="https://devdreaming.com/blogs/smooth-scrolling-in-react-js"
+              date="July 12, 2024"
+              link="https://medium.com/@chideraozigbo/linkedin-jobs-data-etl-pipeline-190e10810fa1"
             />
+            {/*
             <Article
               title="creating an efficient modal component in react using hooks and portals"
               img={blog5}

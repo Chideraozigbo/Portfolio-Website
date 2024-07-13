@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import proj1 from "../../public/images/projects/ML PIPELINE.png";
-import proj2 from "../../public/images/projects/database.jpg";
-import proj3 from "../../public/images/projects/etl project.jpg";
-import proj4 from "../../public/images/projects/portfolio-cover-image.jpg";
-import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
-import proj6 from "../../public/images/projects/devdreaming.jpg";
+import proj1 from "../../public/images/projects/architecture.png";
+import proj2 from "../../public/images/projects/ML PIPELINE.png";
+import proj3 from "../../public/images/projects/lagos pipeline.png";
+import proj4 from "../../public/images/projects/Crypto Data Architecture.png";
+import proj5 from "../../public/images/projects/Financial Architecture.png";
+import proj6 from "../../public/images/projects/basic etl.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -177,68 +177,69 @@ export default function Projects() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Creativity Surpasses Wisdom!"
+            text="Creativity Surpasses Wisdom"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
                 type="Featured Project"
-                title="ML Pipeline for Airfoil Noise Prediction"
-                summary="In this fictional project, I assume the role of a data engineer at an innovative aeronautics consulting company. Our company excels in designing efficient airfoils for both planes and sports cars. While our talented data scientists specialize in machine learning algorithms, they depend on my expertise to handle ETL (Extract, Transform, Load) tasks and construct robust ML (Machine Learning) pipelines."
+                title="Linkedln Jobs Data Pipeline"
+                summary="This project involves extracting job listing data from the LinkedIn API, processing and storing it in S3 buckets, and ultimately loading it into a Redshift data warehouse using AWS Lambda and Apache Airflow. Additionally, a copy of the processed data is sent via email."
                 img={proj1}
+                link="https://medium.com/@chideraozigbo/linkedin-jobs-data-etl-pipeline-190e10810fa1"
+                github="https://github.com/Chideraozigbo/Linkedln-Jobs-Data-Pipeline/tree/aws_code"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="ML Pipeline"
+                title="ML Pipeline for Airfoil Noise Prediction"
+                img={proj2}
                 link="https://github.com/Chideraozigbo/A-ML-Pipeline-for-Airfoil-noise-prediction"
                 github="https://github.com/Chideraozigbo/A-ML-Pipeline-for-Airfoil-noise-prediction"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Database Design"
-                title="Employee Attrition Management System"
-                img={proj2}
-                link="https://medium.com/@chideraozigbo/database-design-i-employee-attrition-management-system-25d89503c08b"
-                github="https://github.com/Chideraozigbo/Database-Design"
+                type="Weather Pipeline"
+                title="Lagos Weather Data Pipeline Project"
+                img={proj3}
+                link="https://github.com/Chideraozigbo/Lagos-Weather-Data-Pipeline-Using-Apache-Airflow"
+                github="https://github.com/Chideraozigbo/Lagos-Weather-Data-Pipeline-Using-Apache-Airflow"
+              />
+            </div>
+            
+            <div className="col-span-12">
+              <FeaturedProject
+                type="ETL Pipeline"
+                title="Bitcoin Crypto Data Pipeline."
+                summary="This project is an ETL (Extract, Transform, Load) pipeline built using Apache Airflow. It extracts cryptocurrency data from the CoinMarketCap API(specifically for Bitcoin), transforms the data using Pandas, and loads it into a PostgreSQL database.GitHub Actions is used for automatic deployment on the Ubuntu server."
+                img={proj4}
+                link="https://github.com/Chideraozigbo/Bitcoin-Crypto-Data-Pipeline"
+                github="https://github.com/Chideraozigbo/Bitcoin-Crypto-Data-Pipeline"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="ETL"
-                title="Basic ETL Pipeline"
-                img={proj3}
+                type="Data Analysis"
+                img={proj5}
+                title="Financial Data Analysis and Pipeline using PySpark on Databricks"
+                link="https://github.com/Chideraozigbo/Financial-Data-Analysis-and-Pipeline-using-PySpark-on-Databricks"
+                github="https://github.com/Chideraozigbo/Financial-Data-Analysis-and-Pipeline-using-PySpark-on-Databricks"
+              />
+            </div>
+            
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Cars Pipeline"
+                img={proj6}
+                title="Used Cars ETL Pipeline"
                 link="https://github.com/Chideraozigbo/Basic-ETL-Pipeline"
                 github="https://github.com/Chideraozigbo/Basic-ETL-Pipeline"
               />
             </div>
-            {/*
-            <div className="col-span-12">
-              <FeaturedProject
-                type="Portfolio Website"
-                title="React Portfolio Website"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
-                img={proj4}
-                link="https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion"
-                github="https://github.com/codebucks27/react-portfolio-final"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Website Template"
-                img={proj5}
-                title="Agency Website Template"
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Blog Website"
-                img={proj6}
-                title="DevDreaming"
-                link="https://devdreaming.com"
-                github="https://github.com/codebucks27"
-              />
-            </div>
-            */}
+            
           </div>
         </Layout>
       </main>
