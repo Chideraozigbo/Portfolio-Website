@@ -8,7 +8,7 @@ import Link from "next/link";
 import proj1 from "../../public/images/projects/architecture.png";
 import proj2 from "../../public/images/projects/ML PIPELINE.png";
 import proj3 from "../../public/images/projects/lagos pipeline.png";
-import proj4 from "../../public/images/projects/IMG_7799.GIF";
+import proj4 from "../../public/images/projects/architecture.png";
 import proj5 from "../../public/images/projects/Financial Architecture.png";
 import proj6 from "../../public/images/projects/basic etl.png";
 import TransitionEffect from "@/components/TransitionEffect";
