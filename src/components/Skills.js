@@ -53,7 +53,7 @@ const Skills = () => {
           <Skill name="Data Warehouse" x="-35vw" y="-5vw" />
           <Skill name="Version Control" x="32vw" y="-5vw" />
           <Skill name="Cloud Platform" x="0vw" y="-20vw" />
-          <Skill name="Collaboration" x="-25vw" y="18vw" />
+          <Skill name="Containerization" x="-25vw" y="18vw" />
           <Skill name="Communication" x="28vw" y="18vw" />
     </div></>
   );

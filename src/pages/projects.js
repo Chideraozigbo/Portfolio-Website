@@ -6,10 +6,10 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import proj1 from "../../public/images/projects/architecture.png";
-import proj2 from "../../public/images/projects/ML PIPELINE.png";
-import proj3 from "../../public/images/projects/lagos pipeline.png";
-import proj4 from "../../public/images/projects/Crypto Data Architecture.png";
-import proj5 from "../../public/images/projects/Financial Architecture.png";
+import proj2 from "../../public/images/projects/Employee-Project-Architecture.gif";
+import proj3 from "../../public/images/projects/architecture.gif";
+import proj4 from "../../public/images/projects/IMG_7799.GIF";
+import proj5 from "../../public/images/projects/sentiment architecture.gif";
 import proj6 from "../../public/images/projects/basic etl.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -193,20 +193,20 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="ML Pipeline"
-                title="ML Pipeline for Airfoil Noise Prediction"
+                type="ETL"
+                title="Employee Analytics Project"
                 img={proj2}
-                link="https://github.com/Chideraozigbo/A-ML-Pipeline-for-Airfoil-noise-prediction"
-                github="https://github.com/Chideraozigbo/A-ML-Pipeline-for-Airfoil-noise-prediction"
+                link="https://github.com/Chideraozigbo/Employee-Analytic-Project"
+                github="https://github.com/Chideraozigbo/Employee-Analytic-Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Weather Pipeline"
-                title="Lagos Weather Data Pipeline Project"
+                type="ETL"
+                title="Tourism Data Pipeline Project"
                 img={proj3}
-                link="https://github.com/Chideraozigbo/Lagos-Weather-Data-Pipeline-Using-Apache-Airflow"
-                github="https://github.com/Chideraozigbo/Lagos-Weather-Data-Pipeline-Using-Apache-Airflow"
+                link="https://github.com/Chideraozigbo/CDE-Capstone-Project"
+                github="https://github.com/Chideraozigbo/CDE-Capstone-Project"
               />
             </div>
             
@@ -222,15 +222,15 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Data Analysis"
+                type="Comprehensive"
                 img={proj5}
-                title="Financial Data Analysis and Pipeline using PySpark on Databricks"
-                link="https://github.com/Chideraozigbo/Financial-Data-Analysis-and-Pipeline-using-PySpark-on-Databricks"
-                github="https://github.com/Chideraozigbo/Financial-Data-Analysis-and-Pipeline-using-PySpark-on-Databricks"
+                title="Sentiment Analysis Project On Piggyvest"
+                link="https://github.com/Chideraozigbo/sentiment-analysis-project/"
+                github="https://github.com/Chideraozigbo/sentiment-analysis-project/"
               />
             </div>
             
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Cars Pipeline"
                 img={proj6}
@@ -238,7 +238,7 @@ export default function Projects() {
                 link="https://github.com/Chideraozigbo/Basic-ETL-Pipeline"
                 github="https://github.com/Chideraozigbo/Basic-ETL-Pipeline"
               />
-            </div>
+            </div> */}
             
           </div>
         </Layout>

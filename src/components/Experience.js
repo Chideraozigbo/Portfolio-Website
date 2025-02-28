@@ -62,23 +62,36 @@ const Experience = () => {
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
             <Details
-              position="Application Support Intern"
+              position="Data Engineer"
               company="VFD TECH"
               companyLink="https://vfdtech.ng/"
-              time="June 2023-Oct 2023"
+              time="Apr 2024 - till date"
               address="Lekki, NG"
-              work="As an Application Support Intern, I played a vital role in ensuring the smooth functioning of applications. 
-              My responsibilities included troubleshooting and resolving technical issues, providing user support, and collaborating with the team to enhance system performance. 
-              I gained valuable experience in diagnosing problems, offering timely solutions, and contributing to the overall efficiency of the applications."
+              work="As a data engineer, I significantly enhanced operational efficiency by refactoring production code to leverage Spark for big data processing, reducing processing time from 3 hours to just 15 minutes. I developed a containerized Streamlit application that empowered cross-functional teams to independently access needed data, decreasing reliance on the data team by 40%.
+              I established robust documentation practices using Confluence to ensure continuity of knowledge across all data workflows and system configurations. Working closely with Finance, Product, and Audit teams, I delivered scalable data solutions utilizing Databricks, Azure Blob Storage, and Redshift. 
+              Throughout these initiatives, I maintained data integrity by implementing comprehensive validation processes that verified destination database accuracy against source data."
             />
 
             <Details
-              position="Web Designer(Freelancer)"
+              position="Data Engineer Trainee"
+              company="Core Data Engineer"
+              companyLink="https://coredataengineers.com/"
+              time="Aug 2024 - Oct 2024"
+              address="Berlin, Germany."
+              work="I implemented robust data orchestration solutions leveraging AWS cloud infrastructure and Docker containers, creating scalable and reproducible data engineering environments. 
+              By designing sophisticated data modeling and transformation strategies with DBT, I developed modular and maintainable data pipeline architectures that significantly enhanced both team productivity and data reliability. 
+              Additionally, I created comprehensive documentation for data operations procedures and system configurations, facilitating seamless knowledge transfer and operational continuity across teams."
+            />
+
+            <Details
+              position="Data Engineer(Freelance)"
               company="Upwork"
               companyLink="https://www.upwork.com/freelancers/~01dd61eb34960c08e1"
-              time="March 2022 - October 2023"
-              address="Lagos, NG."
-              work="Collaborated with a diverse range of clients on Upwork to create visually appealing and user-friendly websites that met their unique requirements and business goals."
+              time="Oct 2023 - Oct 2024"
+              address="California, US."
+              work="I partnered with a fintech startup to architect and deploy a scalable data pipeline utilizing Apache Kafka and AWS Cloud Services, enabling real-time financial data processing and analysis. 
+              For a healthcare client, I engineered a comprehensive data integration solution using Python and Apache Spark that successfully consolidated disparate data sources, substantially improving data accessibility and decision-making capabilities. 
+              Additionally, I developed customized ETL workflows for an e-commerce platform by leveraging Airflow and Redshift, which streamlined data transformation processes and delivered actionable business intelligence insights that drove strategic decision-making."
             />
 
             

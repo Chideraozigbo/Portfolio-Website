@@ -52,12 +52,12 @@ const Education = () => {
 
         
 
-          <Details
+          {/* <Details
             type="Online Coursework"
             time="2023-2024"
             place="Coursera and Datacamp"
             info="Completed coursework in  topics such as Databases, DataWarehouse,Shell Scripting, Big data technologies, Data Lakes and Machine Learning Engineering."
-          />
+          /> */}
         </ul>
       </div>
     </div>

@@ -41,11 +41,11 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Data Alchemy: Engineering Visions into Reality."
+                text="Data Alchemy: Building Scalable Solutions."
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              As an aspiring junior data engineer, I'm committed to transforming concepts into impactful data solutions. Discover my recent projects, reflecting proficiency in data engineering and technology.
+              As a data engineer with 1 year plus experience, I'm committed to transforming concepts into impactful data solutions. Discover my recent projects, reflecting proficiency in data engineering and technology.
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
