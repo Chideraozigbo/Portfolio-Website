@@ -45,7 +45,7 @@ const Education = () => {
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
             type="Bachelor of Science in Computer Science"
-            time="2019-2024"
+            time="2020-2024"
             place="University Of Nigeria, Nsukka (UNN)"
             info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
           />
