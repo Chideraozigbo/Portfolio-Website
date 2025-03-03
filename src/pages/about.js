@@ -59,7 +59,7 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m <strong>Chidera</strong>, a data engineer with a year plus of hands-on experience in the dynamic realm of data engineering. 
+                Hi, I&apos;m <strong>Chidera</strong>, a data engineer with 2 years plus of hands-on experience in the dynamic realm of data engineering. 
                 My journey has been fueled by a passion for transforming raw data into actionable insights that empower decision-making processes. 
               </p>
               <p className="my-4 font-medium">
@@ -115,7 +115,7 @@ export default function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={1} />+
+                  <AnimatedNumberFramerMotion value={2} />+
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
