@@ -10,7 +10,7 @@ import proj2 from "../../public/images/projects/Employee-Project-Architecture.gi
 import proj3 from "../../public/images/projects/architecture.gif";
 import proj4 from "../../public/images/projects/IMG_7799.GIF";
 import proj5 from "../../public/images/projects/sentiment architecture.gif";
-import proj6 from "../../public/images/projects/basic etl.png";
+import proj6 from "../../public/images/projects/multi-vpc.gif";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -183,12 +183,12 @@ export default function Projects() {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                type="Featured Project"
-                title="Linkedln Jobs Data Pipeline"
-                summary="This project involves extracting job listing data from the LinkedIn API, processing and storing it in S3 buckets, and ultimately loading it into a Redshift data warehouse using AWS Lambda and Apache Airflow. Additionally, a copy of the processed data is sent via email."
-                img={proj1}
-                link="https://medium.com/@chideraozigbo/linkedin-jobs-data-etl-pipeline-190e10810fa1"
-                github="https://github.com/Chideraozigbo/Linkedln-Jobs-Data-Pipeline/tree/aws_code"
+                type="Networking"
+                title="Automated Multi-VPC Infrastructure Using Terraform"
+                summary="A Terraform powered AWS setup with two VPCs—Ingestion and Analytics—designed for secure, scalable data engineering. It uses public/private subnets, VPC peering, and avoids NAT Gateways for tighter control and cost-efficiency."
+                img={proj6}
+                link="https://medium.com/@chideraozigbo/how-i-automated-a-secure-multi-vpc-architecture-on-aws-using-terraform-1effe3e80ea4"
+                github="https://github.com/Chideraozigbo/Multi-VPC-Architecture"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -213,11 +213,11 @@ export default function Projects() {
             <div className="col-span-12">
               <FeaturedProject
                 type="ETL Pipeline"
-                title="Bitcoin Crypto Data Pipeline."
-                summary="This project is an ETL (Extract, Transform, Load) pipeline built using Apache Airflow. It extracts cryptocurrency data from the CoinMarketCap API(specifically for Bitcoin), transforms the data using Pandas, and loads it into a PostgreSQL database.GitHub Actions is used for automatic deployment on the Ubuntu server."
-                img={proj4}
-                link="https://github.com/Chideraozigbo/Bitcoin-Crypto-Data-Pipeline"
-                github="https://github.com/Chideraozigbo/Bitcoin-Crypto-Data-Pipeline"
+                title="Linkedln Jobs Data Pipeline"
+                summary="This project involves extracting job listing data from the LinkedIn API, processing and storing it in S3 buckets, and ultimately loading it into a Redshift data warehouse using AWS Lambda and Apache Airflow. Additionally, a copy of the processed data is sent via email."
+                img={proj1}
+                link="https://medium.com/@chideraozigbo/linkedin-jobs-data-etl-pipeline-190e10810fa1"
+                github="https://github.com/Chideraozigbo/Linkedln-Jobs-Data-Pipeline/tree/aws_code"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -230,15 +230,15 @@ export default function Projects() {
               />
             </div>
             
-            {/* <div className="col-span-6 sm:col-span-12">
+            <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Cars Pipeline"
-                img={proj6}
-                title="Used Cars ETL Pipeline"
-                link="https://github.com/Chideraozigbo/Basic-ETL-Pipeline"
-                github="https://github.com/Chideraozigbo/Basic-ETL-Pipeline"
+                type="ETL Pipeline"
+                img={proj4}
+                title="Bitcoin Crypto Data Pipeline."
+                link="https://github.com/Chideraozigbo/Bitcoin-Crypto-Data-Pipeline"
+                github="https://github.com/Chideraozigbo/Bitcoin-Crypto-Data-Pipeline"
               />
-            </div> */}
+            </div>
             
           </div>
         </Layout>
